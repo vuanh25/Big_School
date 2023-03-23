@@ -22,6 +22,8 @@ namespace BigSchool2.ViewModels
         [Required]
         public byte Category { get; set; }
         public IEnumerable<Category> Categories { get; set; }
+        public IEnumerable<Course> UP { get; set; }
+        public bool ShowAction { get; set; }
 
         public DateTime GetDateTime()
         {

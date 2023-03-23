@@ -7,7 +7,7 @@ namespace BigSchool2.Migrations
     {
         public override void Up()
         {
-            CreateTable(
+           /* CreateTable(
                 "dbo.Categories",
                 c => new
                     {
@@ -99,7 +99,7 @@ namespace BigSchool2.Migrations
                         Name = c.String(nullable: false, maxLength: 256),
                     })
                 .PrimaryKey(t => t.Id)
-                .Index(t => t.Name, unique: true, name: "RoleNameIndex");
+                .Index(t => t.Name, unique: true, name: "RoleNameIndex");*/
             
         }
         

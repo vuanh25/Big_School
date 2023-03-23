@@ -1,10 +1,10 @@
 ﻿@model BigSchool2.ViewModels.CourseViewModel
 @{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Attending";
 }
 
 <link href="~/Content/Site.css" rel="stylesheet" />
-
+<h2>Attending</h2>
 <ul class="course">
     @foreach (var course in Model.UP)
     {
@@ -32,7 +32,7 @@
                     @course.Category.Name
                     @if (Model.ShowAction)
                     {
-                        <button idCourse="@course.Id" class="btn btn-default btn-sm js-toggle-attendance">Going?</button>
+                        <button idCourse=" @course.Id " class="btn btn-default btn-sm js-toggle-attendance">Going?</button>
                     }
                 </span>
             </div>

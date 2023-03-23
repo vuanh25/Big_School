@@ -7,7 +7,7 @@ namespace BigSchool2.Migrations
     {
         public override void Up()
         {
-            CreateTable(
+            /*CreateTable(
                 "dbo.Attendances",
                 c => new
                     {
@@ -18,18 +18,18 @@ namespace BigSchool2.Migrations
                 .ForeignKey("dbo.AspNetUsers", t => t.AttendeeId, cascadeDelete: true)
                 .ForeignKey("dbo.Courses", t => t.CourseId)
                 .Index(t => t.CourseId)
-                .Index(t => t.AttendeeId);
+                .Index(t => t.AttendeeId);*/
             
 
         }
         
         public override void Down()
         {
-            DropForeignKey("dbo.Attendances", "CourseId", "dbo.Courses");
+            /*DropForeignKey("dbo.Attendances", "CourseId", "dbo.Courses");
             DropForeignKey("dbo.Attendances", "AttendeeId", "dbo.AspNetUsers");
             DropIndex("dbo.Attendances", new[] { "AttendeeId" });
             DropIndex("dbo.Attendances", new[] { "CourseId" });
-            DropTable("dbo.Attendances");
+            DropTable("dbo.Attendances");*/
         }
     }
 }

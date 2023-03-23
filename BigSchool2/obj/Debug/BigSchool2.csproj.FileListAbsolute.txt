@@ -234,3 +234,4 @@ C:\Users\PhamAnhVu\Desktop\Big_School\Big_School\BigSchool2\obj\Debug\BigSchool2
 C:\Users\PhamAnhVu\Desktop\Big_School\Big_School\BigSchool2\obj\Debug\BigSchool2.csproj.CopyComplete
 C:\Users\PhamAnhVu\Desktop\Big_School\Big_School\BigSchool2\obj\Debug\BigSchool2.dll
 C:\Users\PhamAnhVu\Desktop\Big_School\Big_School\BigSchool2\obj\Debug\BigSchool2.pdb
+C:\Users\PhamAnhVu\Desktop\Big_School\Big_School\BigSchool2\obj\Debug\BigSchool2.Migrations.addfollowingTable.resources
